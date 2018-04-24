@@ -7,7 +7,7 @@ https://app.vagrantup.com/mcandre/boxes/vagrant-void-cpp
 # EXAMPLE
 
 ```console
-$ cd test
+$ cd amd64/test
 $ vagrant up
 $ vagrant ssh -c "cd /vagrant && clang++ -o hello hello.cpp && ./hello"
 Hello World!
@@ -31,5 +31,6 @@ Hello World!
 # EXPORT
 
 ```console
-$ make vagrant-void-cpp.box
+$ sh -c "cd amd64 && make vagrant-void-cpp-amd64.box"
+$ sh -c "cd i386 && make vagrant-void-cpp-i386.box"
 ```
