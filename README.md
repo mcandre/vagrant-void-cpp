@@ -2,7 +2,8 @@
 
 # VAGRANT CLOUD
 
-https://app.vagrantup.com/mcandre/boxes/vagrant-void-cpp
+* https://app.vagrantup.com/mcandre/boxes/vagrant-void-cpp-amd64
+* https://app.vagrantup.com/mcandre/boxes/vagrant-void-cpp-i386
 
 # EXAMPLE
 
