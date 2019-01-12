@@ -8,7 +8,7 @@ test-boot:
 	vagrant up
 
 test-compile: test-boot
-	vagrant ssh -c "cd /vagrant && clang++ -o hello hello.cpp && ./hello"
+	vagrant ssh -c "cd /vagrant && g++ -o hello hello.cpp && ./hello"
 
 clean-vm:
 	-vagrant destroy -f
